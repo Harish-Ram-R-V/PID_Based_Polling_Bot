@@ -6,6 +6,7 @@ This project controls two DC motors with quadrature encoders using an Arduino.
 The motors are driven using PWM signals with direction control, and a PID algorithm ensures that each motor reaches its target position.
 Encoder readings are polled manually (no interrupts).
 The Serial Monitor displays real-time encoder positions.
+The bot movement is controlled by pid control and will succeed to trace back to target position
 
 ## Features
 
@@ -42,6 +43,9 @@ The Serial Monitor displays real-time encoder positions.
 | 10          | Motor B ENB (PWM)        |
 | 2, 3        | Encoder A (ENCA1, ENCA2) |
 | 4, 5        | Encoder B (ENCB1, ENCB2) |
+
+## YOU CAN CHECK MY TINKERCAD CIRCUIT SIMULATION HERE:
+        https://www.tinkercad.com/things/92b8tpUfThh-pid-based-polling-bot?sharecode=t6l-8ypFhXxbnMB33Pp8_BPIvskeuukTTiN317-wItk
 
 ## Future Plan
 
